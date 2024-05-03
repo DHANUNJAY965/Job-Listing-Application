@@ -29,10 +29,6 @@ The project structure is organized as follows:
 - Redux: State management library for JavaScript applications.
 - Tailwind CSS: Utility-first CSS framework for styling the application.
 
-## Author
-[Your Name]
 
-## Contact
-For any inquiries or issues regarding the project, please contact [Your Email Address].
 
 
