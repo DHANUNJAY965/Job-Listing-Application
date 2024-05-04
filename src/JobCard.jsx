@@ -24,7 +24,8 @@ const JobCard = ({ job }) => {
         <>
           <p className="text-gray-600">{job.jobDetailsFromCompany.substring(0, 100)}</p>
           <div className='flex justify-center'>
-            <button onClick={toggleExpand} className="text-blue-500">Show More</button>
+            <button onClick={toggleExpand} 
+            {/* Show "Show Less" button if not expanded expanded */}className="text-blue-500">Show More</button>
           </div>
         </>
       )}
