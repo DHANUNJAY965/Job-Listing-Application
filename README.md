@@ -1,13 +1,35 @@
-<<<<<<< HEAD
-# React + Vite
+# Weekday Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Deployment Link  : [Click here to View](https://weekday-assignment-by-dhanunjay.vercel.app/)
+## Overview
+This repository contains the solution for the Weekday assignment. It includes a React application that displays job listings and provides filtering options.
 
-Currently, two official plugins are available:
+## Running the Application
+To run the application locally, follow these steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Weekday-SDE-Assignment
-React job listing app with filtering &amp; infinite scrolling. Uses Redux &amp; Tailwind CSS. Fetches data from API. Developed for Weekday assignment."
->>>>>>> fa598d3fa69e955458711eeaccb1e2c0872d4d1f
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies by running the command:
+4. Start the development server by running the command:
+5. Open your browser and navigate to http://localhost:3000 to view the application.
+
+## Folder Structure
+The project structure is organized as follows:
+
+- `src/`: Contains the source code for the React application.
+- `components/`: Contains reusable React components.
+- `Redux/`: Contains Redux-related files including actions, reducers, and store configuration.
+- `App.jsx`: The main component of the application.
+- `Navbar.jsx`: Component for the navigation bar.
+- `JobCard.jsx`: Component for displaying job cards.
+- `Filter.jsx`: Component for filtering options.
+- `InfiniteScroll.jsx`: Component for infinite scrolling functionality.
+
+## Technologies Used
+- React: JavaScript library for building user interfaces.
+- Redux: State management library for JavaScript applications.
+- Tailwind CSS: Utility-first CSS framework for styling the application.
+
+
+
+
