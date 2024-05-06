@@ -50,10 +50,10 @@ const App = () => {
   return (
     <div>
       <Navbar handleFilterChange={handleFilterChange} />
-      <div className="container mt-4 px-6">
+      <div  className={`container mt-4 px-6 ${filteredJobs.length === 0 ? 'container mt-4 px-6 bg-gray-300' : ''}`}>
         {filteredJobs.length === 0 ? (
           <div className="flex justify-center items-center h-screen">
-            <p className="text-center text-2xl font-bold text-red-500">No jobs found</p>
+            <p className=" text-center text-2xl font-bold text-red-500">No jobs found</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-3 gap-9">
